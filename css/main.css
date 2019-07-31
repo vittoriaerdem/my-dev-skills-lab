@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 15px;
+    background-color: #92C47C;
+    text-transform: uppercase;
+    color: white;
+    width: 400px;
+}
+
+div {
+    display: flex;
+    text-align: center;
+    display: inline-block;
+}
+
+#skills {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    display: inline-block;
+    list-style-type: none;
+    color: #FFAD49;
+    font-size: 20px;
+}
+
+#form {
+    width: 400px;
+    display: inline;
+}
+
+input {
+    border: 3px solid #92C47C;
+    margin: 5px;
+}
+
+button {
+    color: #92C47C;
+    margin: 5px;
+}
