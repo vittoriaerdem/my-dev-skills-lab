@@ -3,18 +3,22 @@
 // click add a skill
 // skill adds to list 
 
-$(document).ready(function() {
-    // Function to get input value.
-    $('#text_value').click(function() {
-    var text_value = $("#text").val();
-    if(text_value=='') {
-    alert("Enter Some Text In Input Field");
-    }else{
-    alert(text_value);
-    }
-    });
-    $('#text_reset').click(function() {
-    $("#text").val('');
-    });
-    
-    
+const $skills = $('#skills'); // this is the list
+const addSkill = $('#add-button') // this is the button
+const skillInput = $('#skill-input')
+console.log(addSkill)
+console.log($skills)
+console.log(skillInput)
+addSkill.click(function(event) {
+    console.log(event.target) // when connecting buttons do this first
+    let $value = $('#skill-input').val()
+    // let template = $(`
+    // <div class="">
+    //     <div class="btn btn-danger">X</div>
+    //     <p>${$value}</p>
+    // </div>
+    // `);
+    let newItem = $(`<li class="item"><div class="btn btn-danger">X</div><p> ${$value}</p></li>`)
+    skillInput.val('')
+    $skills.append(newItem)
+});

@@ -13,7 +13,7 @@ h2 {
     flex-direction: column;
     text-align: center;
     padding: 15px;
-    background-color: #92C47C;
+    background-color: rgb(140, 143, 138);
     text-transform: uppercase;
     color: white;
     width: 400px;
@@ -21,22 +21,22 @@ h2 {
 
 div {
     display: flex;
-    text-align: center;
+}
+
+p {
+    display: flex;
+    text-align: left;
     display: inline-block;
+    color: #FFAD49;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
 }
 
 #skills {
     display: flex;
     text-align: left;
     display: inline-block;
-    list-style-type: none;
-    color: #FFAD49;
-    font-size: 20px;
-}
-
-#form {
-    width: 400px;
-    display: inline;
 }
 
 input {
@@ -47,4 +47,9 @@ input {
 button {
     color: #92C47C;
     margin: 5px;
+    text-align: left;
+}
+
+ul {
+    list-style: none;
 }
