@@ -28,7 +28,6 @@ div {
 #skills {
     display: flex;
     text-align: left;
-    flex-direction: column;
     display: inline-block;
     list-style-type: none;
     color: #FFAD49;
