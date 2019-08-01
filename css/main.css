@@ -21,6 +21,7 @@ h2 {
 
 div {
     display: flex;
+    justify-content: left;
 }
 
 p {
@@ -52,4 +53,7 @@ button {
 
 ul {
     list-style: none;
+    display: flex;
+    text-align: left;
+    display: inline-block;
 }
